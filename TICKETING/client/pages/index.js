@@ -1,10 +1,6 @@
 import buildClient from '../api/build-client';
 
 const LandingPage = ({ currentUser }) => {
-  // axios.get('/api/users/currentuser').catch((err) => {
-  //   console.log(err.message);
-  //});
-
   return currentUser ? (
     <h1>You are signed in</h1>
   ) : (
